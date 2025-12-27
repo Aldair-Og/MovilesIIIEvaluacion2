@@ -1,0 +1,144 @@
+{
+    "series": [
+        {
+            "titulo": "Breaking Bad",
+            "anio": 2008,
+            "descripcion": "Un profesor de química de secundaria con cáncer terminal se asocia con un ex alumno para fabricar y vender metanfetamina y asegurar el futuro financiero de su familia.",
+            "info": {
+                "url": "https://www.imdb.com/title/tt0903747/",
+                "trailer": "https://www.youtube.com/watch?v=HhesaQXLuRY",
+                "imagen": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"
+            },
+            "metadata": {
+                "temporadas": 5,
+                "creador": "Vince Gilligan"
+            }
+        },
+        {
+            "titulo": "Game of Thrones",
+            "anio": 2011,
+            "descripcion": "Nueve familias nobles luchan por el control de las tierras de Westeros, mientras una antigua enemiga regresa después de estar ausente durante miles de años.",
+            "info": {
+                "url": "https://www.imdb.com/title/tt0944947/",
+                "trailer": "https://www.youtube.com/watch?v=KPLWWIOCOOQ",
+                "imagen": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg"
+            },
+            "metadata": {
+                "temporadas": 8,
+                "creador": "David Benioff, D.B. Weiss"
+            }
+        },
+        {
+            "titulo": "Stranger Things",
+            "anio": 2016,
+            "descripcion": "Cuando un niño desaparece, su madre, un jefe de policía y sus amigos deben enfrentar fuerzas terroríficas para recuperarlo.",
+            "info": {
+                "url": "https://www.imdb.com/title/tt4574334/",
+                "trailer": "https://www.youtube.com/watch?v=b9EkMc79ZSU",
+                "imagen": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg"
+            },
+            "metadata": {
+                "temporadas": 4,
+                "creador": "Matt Duffer, Ross Duffer"
+            }
+        },
+        {
+            "titulo": "The Crown",
+            "anio": 2016,
+            "descripcion": "Sigue la vida de la Reina Isabel II desde su boda en 1947 hasta la actualidad, explorando los eventos que dieron forma a la segunda mitad del siglo XX.",
+            "info": {
+                "url": "https://www.imdb.com/title/tt4786824/",
+                "trailer": "https://www.youtube.com/watch?v=JWtnJjn6ng0",
+                "imagen": "https://image.tmdb.org/t/p/w500/izUe1NXB4n15ZjGeMuF1EnYx5vZ.jpg"
+            },
+            "metadata": {
+                "temporadas": 5,
+                "creador": "Peter Morgan"
+            }
+        },
+        {
+            "titulo": "The Mandalorian",
+            "anio": 2019,
+            "descripcion": "Después de la caída del Imperio, un cazarrecompensas solitario se abre camino a través de los confines de la galaxia, lejos de la autoridad de la Nueva República.",
+            "info": {
+                "url": "https://www.imdb.com/title/tt8111088/",
+                "trailer": "https://www.youtube.com/watch?v=aOC8E8z_ifw",
+                "imagen": "https://image.tmdb.org/t/p/w500/x4b8k4n3KOQhRsORZ7eTmYZyo53.jpg"
+            },
+            "metadata": {
+                "temporadas": 3,
+                "creador": "Jon Favreau"
+            }
+        },
+        {
+            "titulo": "The Witcher",
+            "anio": 2019,
+            "descripcion": "Geralt de Rivia, un cazador de monstruos mutado, lucha por encontrar su lugar en un mundo donde las personas suelen ser más perversas que las bestias.",
+            "info": {
+                "url": "https://www.imdb.com/title/tt5180504/",
+                "trailer": "https://www.youtube.com/watch?v=ndl1W4ltcmg",
+                "imagen": "https://image.tmdb.org/t/p/w500/zrPpUlehQaBf8YX2NrVrKK8IEpf.jpg"
+            },
+            "metadata": {
+                "temporadas": 2,
+                "creador": "Lauren Schmidt Hissrich"
+            }
+        },
+        {
+            "titulo": "The Office",
+            "anio": 2005,
+            "descripcion": "Una comedia que sigue la vida diaria de los empleados de una oficina, documentando sus relaciones y eventos cotidianos de manera humorística.",
+            "info": {
+                "url": "https://www.imdb.com/title/tt0386676/",
+                "trailer": "https://www.youtube.com/watch?v=Vmb1tqYqyII",
+                "imagen": "https://image.tmdb.org/t/p/w500/3HEjS7AzFKJ9gTh2Y8WG2BzpP0t.jpg"
+            },
+            "metadata": {
+                "temporadas": 9,
+                "creador": "Greg Daniels"
+            }
+        },
+        {
+            "titulo": "Friends",
+            "anio": 1994,
+            "descripcion": "Sigue la vida de seis amigos que viven en Nueva York mientras enfrentan los desafíos del trabajo, la vida y el amor.",
+            "info": {
+                "url": "https://www.imdb.com/title/tt0108778/",
+                "trailer": "https://www.youtube.com/watch?v=hDNNmeeJs1Q",
+                "imagen": "https://image.tmdb.org/t/p/w500/f496cm9enuEsZkSPzCwnTESEK5s.jpg"
+            },
+            "metadata": {
+                "temporadas": 10,
+                "creador": "David Crane, Marta Kauffman"
+            }
+        },
+        {
+            "titulo": "Sherlock",
+            "anio": 2010,
+            "descripcion": "Una versión moderna de las historias de Sherlock Holmes, el detective más famoso del mundo, y su amigo el Dr. Watson.",
+            "info": {
+                "url": "https://www.imdb.com/title/tt1475582/",
+                "trailer": "https://www.youtube.com/watch?v=xK7S9mrFWL4",
+                "imagen": "https://image.tmdb.org/t/p/w500/xWY98dP4pECOes8NviHVEXRdYAx.jpg"
+            },
+            "metadata": {
+                "temporadas": 4,
+                "creador": "Mark Gatiss, Steven Moffat"
+            }
+        },
+        {
+            "titulo": "Black Mirror",
+            "anio": 2011,
+            "descripcion": "Una serie de antología que explora un futuro retorcido y de alta tecnología donde las mayores innovaciones y los instintos más oscuros de la humanidad chocan.",
+            "info": {
+                "url": "https://www.imdb.com/title/tt2085059/",
+                "trailer": "https://www.youtube.com/watch?v=jROLrhQkK78",
+                "imagen": "https://image.tmdb.org/t/p/w500/pXeuSWSKgWUnhRFHZ4TjAUU7OiF.jpg"
+            },
+            "metadata": {
+                "temporadas": 5,
+                "creador": "Charlie Brooker"
+            }
+        }
+    ]
+}
