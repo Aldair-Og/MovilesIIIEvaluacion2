@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import '/navigators/drawer.dart'; 
+import '/navigators/drawer.dart';
 
 class ComentariosScreen extends StatelessWidget {
   const ComentariosScreen({super.key});
@@ -9,7 +9,7 @@ class ComentariosScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Comentarios')),
-      drawer: const AppDrawer(), 
+      drawer: const AppDrawer(),
       body: comentarioForm(context),
     );
   }
@@ -36,34 +36,48 @@ Widget comentarioForm(BuildContext context) {
         ),
         const SizedBox(height: 20),
         ElevatedButton(
-          onPressed: () async {
-            try {
-              await supabase.from('comentarios').insert({
-                'serie': serieController.text.trim(),
-                'comentario': comentarioController.text.trim(),
-              });
-
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(
-                  content: Text('Comentario guardado exitosamente'),
-                  backgroundColor: Colors.green,
-                ),
-              );
-
-              serieController.clear();
-              comentarioController.clear();
-            } catch (e) {
-              ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(
-                  content: Text('Error al guardar: $e'),
-                  backgroundColor: Colors.red,
-                ),
-              );
-            }
-          },
+          onPressed: () => guardarComentario(
+            context,
+            supabase,
+            serieController,
+            comentarioController,
+          ),
           child: const Text('Guardar comentario'),
         ),
       ],
     ),
   );
+}
+
+Future<void> guardarComentario(
+  BuildContext context,
+  SupabaseClient supabase,
+  TextEditingController serieController,
+  TextEditingController comentarioController,
+) async {
+  try {
+    await supabase
+        .from('comentarios')
+        .insert({
+          'serie': serieController.text.trim(),
+          'comentario': comentarioController.text.trim(),
+        });
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        content: Text('Comentario guardado exitosamente'),
+        backgroundColor: Colors.green,
+      ),
+    );
+
+    serieController.clear();
+    comentarioController.clear();
+  } catch (e) {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text('Error al guardar: $e'),
+        backgroundColor: Colors.red,
+      ),
+    );
+  }
 }
